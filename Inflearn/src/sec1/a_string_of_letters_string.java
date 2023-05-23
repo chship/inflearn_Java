@@ -1,7 +1,7 @@
 package sec1;
 
 import java.util.*;
-class Main {	
+class a_string_of_letters_string {	
 	public String solution(String str){
 		String answer="YES";
 		str=str.toUpperCase();
@@ -13,7 +13,7 @@ class Main {
 	}
 
 	public static void main(String[] args){
-		Main T = new Main();
+		a_string_of_letters_string T = new a_string_of_letters_string();
 		Scanner kb = new Scanner(System.in);
 		String str=kb.next();
 		System.out.print(T.solution(str));
@@ -23,7 +23,7 @@ class Main {
 
 
 //import java.util.*;
-//class Main {	
+//class a_string_of_letters_string {	
 //	public String solution(String str){
 //		String answer="NO";
 //		String tmp=new StringBuilder(str).reverse().toString();
@@ -32,7 +32,7 @@ class Main {
 //	}
 //
 //	public static void main(String[] args){
-//		Main T = new Main();
+//		a_string_of_letters_string T = new a_string_of_letters_string();
 //		Scanner kb = new Scanner(System.in);
 //		String str=kb.next();
 //		System.out.print(T.solution(str));

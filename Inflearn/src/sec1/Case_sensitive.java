@@ -1,7 +1,7 @@
 package sec1;
 
 import java.util.*;
-class Main {	
+class Case_sensitive {	
 	public String solution(String str){
 		String answer="";
 		for(char x : str.toCharArray()){
@@ -13,7 +13,7 @@ class Main {
 	}
 
 	public static void main(String[] args){
-		Main T = new Main();
+		Case_sensitive T = new Case_sensitive();
 		Scanner kb = new Scanner(System.in);
 		String str=kb.next();
 		System.out.print(T.solution(str));
@@ -22,7 +22,7 @@ class Main {
 
 
 //import java.util.*;
-//class Main {	
+//class Case_sensitive {	
 //	public String solution(String str){
 //		String answer="";
 //		for(char x : str.toCharArray()){
@@ -33,7 +33,7 @@ class Main {
 //	}
 //
 //	public static void main(String[] args){
-//		Main T = new Main();
+//		Case_sensitive T = new Case_sensitive();
 //		Scanner kb = new Scanner(System.in);
 //		String str=kb.next();
 //		System.out.print(T.solution(str));

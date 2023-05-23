@@ -1,7 +1,7 @@
 package sec1;
 
 import java.util.*;
-class Main {	
+class ExtractNumbersOnly {	
 	public int solution(String s){
 		//int answer=0;
 		String answer="";
@@ -16,7 +16,7 @@ class Main {
 	}
 
 	public static void main(String[] args){
-		Main T = new Main();
+		ExtractNumbersOnly T = new ExtractNumbersOnly();
 		Scanner kb = new Scanner(System.in);
 		String str=kb.next();
 		System.out.print(T.solution(str));

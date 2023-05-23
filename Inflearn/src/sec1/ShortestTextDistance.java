@@ -1,7 +1,7 @@
 package sec1;
 
 import java.util.*;
-class Main {	
+class ShortestTextDistance {	
 	public int[] solution(String s, char t){
 		int[] answer=new int[s.length()];
 		int p=1000;
@@ -27,7 +27,7 @@ class Main {
 	}
 
 	public static void main(String[] args){
-		Main T = new Main();
+		ShortestTextDistance T = new ShortestTextDistance();
 		Scanner kb = new Scanner(System.in);
 		String str=kb.next();
 		char c=kb.next().charAt(0);

@@ -1,7 +1,7 @@
 package sec1;
 
 import java.util.*;
-class Main {	
+class Password {	
 	public String solution(int n, String s){
 		String answer="";
 		for(int i=0; i<n; i++){
@@ -14,7 +14,7 @@ class Main {
 	}
 
 	public static void main(String[] args){
-		Main T = new Main();
+		Password T = new Password();
 		Scanner kb = new Scanner(System.in);
 		int n=kb.nextInt();
 		String str=kb.next();
