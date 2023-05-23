@@ -1,7 +1,7 @@
 package sec2;
 
 import java.util.*;
-class Main {	
+class Making_a_TemporaryBanjang_11 {	
 	public int solution(int n, int[][] arr){
 		int answer=0, max=0;
 		for(int i=1; i<=n; i++){
@@ -23,7 +23,7 @@ class Main {
 	}
 
 	public static void main(String[] args){
-		Main T = new Main();
+		Making_a_TemporaryBanjang_11 T = new Making_a_TemporaryBanjang_11();
 		Scanner kb = new Scanner(System.in);
 		int n=kb.nextInt();
 		int[][] arr=new int[n+1][6];

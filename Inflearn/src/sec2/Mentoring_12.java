@@ -1,7 +1,7 @@
 package sec2;
 
 import java.util.*;
-class Main {	
+class Mentoring_12 {	
 	public int solution(int n, int m, int[][] arr){
 		int answer=0;
 		for(int i=1; i<=n; i++){
@@ -25,7 +25,7 @@ class Main {
 	}
 
 	public static void main(String[] args){
-		Main T = new Main();
+		Mentoring_12 T = new Mentoring_12();
 		Scanner kb = new Scanner(System.in);
 		int n=kb.nextInt();
 		int m=kb.nextInt();

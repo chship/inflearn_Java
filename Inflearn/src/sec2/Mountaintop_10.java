@@ -1,7 +1,7 @@
 package sec2;
 
 import java.util.*;
-class Main {	
+class Mountaintop_10 {	
 	int[] dx={-1, 0, 1, 0};
 	int[] dy={0, 1, 0, -1};
 	public int solution(int n, int[][] arr){
@@ -24,7 +24,7 @@ class Main {
 	}
 
 	public static void main(String[] args){
-		Main T = new Main();
+		Mountaintop_10 T = new Mountaintop_10();
 		Scanner kb = new Scanner(System.in);
 		int n=kb.nextInt();
 		int[][] arr=new int[n][n];

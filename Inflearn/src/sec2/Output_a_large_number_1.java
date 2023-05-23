@@ -1,7 +1,7 @@
 package sec2;
 
 import java.util.*;
-class Main {	
+class Output_a_large_number_1 {	
 	public ArrayList<Integer> solution(int n, int[] arr){
 		ArrayList<Integer> answer = new ArrayList<>();
 		answer.add(arr[0]);
@@ -12,7 +12,7 @@ class Main {
 	}
 
 	public static void main(String[] args){
-		Main T = new Main();
+		Output_a_large_number_1 T = new Output_a_large_number_1();
 		Scanner kb = new Scanner(System.in);
 		int n=kb.nextInt();
 		int[] arr=new int[n];

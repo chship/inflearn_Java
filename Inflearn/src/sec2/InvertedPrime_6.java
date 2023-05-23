@@ -1,7 +1,7 @@
 package sec2;
 
 import java.util.*;
-class Main {	
+class InvertedPrime_6 {	
 	public boolean isPrime(int num){
 		if(num==1) return false;
 		for(int i=2; i<num; i++){
@@ -25,7 +25,7 @@ class Main {
 		return answer;
 	}
 	public static void main(String[] args){
-		Main T = new Main();
+		InvertedPrime_6 T = new InvertedPrime_6();
 		Scanner kb = new Scanner(System.in);
 		int n=kb.nextInt();
 		int[] arr=new int[n];

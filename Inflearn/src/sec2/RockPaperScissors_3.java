@@ -1,7 +1,7 @@
 package sec2;
 
 import java.util.*;
-class Main {	
+class RockPaperScissors_3 {	
 	public String solution(int n, int[] a, int[] b){
 		String answer="";
 		for(int i=0; i<n; i++){
@@ -14,7 +14,7 @@ class Main {
 		return answer;
 	}
 	public static void main(String[] args){
-		Main T = new Main();
+		RockPaperScissors_3 T = new RockPaperScissors_3();
 		Scanner kb = new Scanner(System.in);
 		int n=kb.nextInt();
 		int[] a=new int[n];

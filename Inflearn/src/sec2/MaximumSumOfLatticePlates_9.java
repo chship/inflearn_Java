@@ -1,7 +1,7 @@
 package sec2;
 
 import java.util.*;
-class Main {	
+class MaximumSumOfLatticePlates_9 {	
 	public int solution(int n, int[][] arr){
 		int answer=-2147000000;
 		int sum1=0, sum2=0;
@@ -25,7 +25,7 @@ class Main {
 	}
 
 	public static void main(String[] args){
-		Main T = new Main();
+		MaximumSumOfLatticePlates_9 T = new MaximumSumOfLatticePlates_9();
 		Scanner kb = new Scanner(System.in);
 		int n=kb.nextInt();
 		int[][] arr=new int[n][n];
